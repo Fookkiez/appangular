@@ -1,0 +1,31 @@
+.font-16{
+	font-size: 16px !important;
+}
+.font-18{
+	font-size: 18px !important;
+}
+
+/*table*/
+.table th{
+	font-size: 16px !important;
+}
+
+/*fullscreen*/
+html.full-screen body.vertical-layout.vertical-menu-modern.menu-expanded .main-menu{
+	width: 0px;
+}
+html.full-screen body .content{
+	margin-left: 0px;
+}
+html.full-screen body .content .content-wrapper{
+	margin-top: 0px;
+}
+html.full-screen .header-navbar, html.full-screen .breadcrumbs-top, html.full-screen .header-navbar-shadow{
+	display: none;
+}
+
+@media print {
+    @page {
+	    size: auto;
+	}
+}
